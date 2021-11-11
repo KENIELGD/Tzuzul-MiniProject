@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar{
+    width: auto;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+div.imagen_titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+}
+
+h1{
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+a.info{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.info:hover{
+    color:orangered;
+}
+.info:active{
+    color: chartreuse;
+}
