@@ -25,31 +25,58 @@
 .imgs_one{ 
     /* lineas que va a ocupar */
     grid-row: 1/3;
-    
+    position: relative;
 }
 
 .imgs_one img{
     width: 35rem;
     height: 40rem;
-    position: relative;
 }
 
 .texto_imgsOne{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
 }
 
 /* Img 2 */
+
+.imgs_two{ 
+    position: relative;
+}
 
 .imgs_two img{
     width: 550px;
     height: 310px;
 }
 
+.texto_imgsTwo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+    color: #fff;
+}
+
 /* Img 3 */
+
+.imgs_three{ 
+    position: relative;
+}
 
 .imgs_three img{ 
     width: 550px;
     height: 310px;
+}
+
+.texto_imgsThree{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+    color: #fff;
 }
 
 /* Estilos para la tercer parte de la Section */
