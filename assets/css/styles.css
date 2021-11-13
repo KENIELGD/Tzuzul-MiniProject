@@ -8,11 +8,10 @@
 /* Estilos para la segunda parte del Section */
 .three_imgs{
     display:grid;
-    /* Espacio que va a abarcar */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 35rem 550px;
     /* Espaciado entre las grillas */
     gap: 1rem;
-    padding: 2rem 6rem 2rem 7rem;
+    place-content: center;
 }
 
 .three_imgs img{
@@ -20,25 +19,33 @@
     filter: brightness(30%);
 }
 
+
+.imgs_one,.imgs_three ,.imgs_two{
+    position: relative;
+}
+
+.texto_imgsOne , .texto_imgsTwo, .texto_imgsThree{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 /* Img 1 */
 
-.imgs_one{ 
-    /* lineas que va a ocupar */
+.imgs_one{
     grid-row: 1/3;
-    
 }
 
 .imgs_one img{
     width: 35rem;
     height: 40rem;
-    position: relative;
+    /* position: relative; */
 }
 
-.texto_imgsOne{
-    position: absolute;
-}
 
 /* Img 2 */
+
 
 .imgs_two img{
     width: 550px;
@@ -47,7 +54,8 @@
 
 /* Img 3 */
 
-.imgs_three img{ 
+
+.imgs_three img{
     width: 550px;
     height: 310px;
 }
