@@ -2,7 +2,7 @@
 
 #### _Integrantes_
 
-* JhanChris11 
+* JhanChris11
 * JulianReyes
 * JuanMa
 * emi
@@ -10,4 +10,4 @@
 
 #### `Enlace diseño landing page Figma`
 
-> https://www.figma.com/file/b7rMko906QZRwrFa2355eV/Untitled?node-id=0%3A1
+> https://www.figma.com/file/b7rMko906QZRwrFa2355eV/LANDING-PAGE---EQUIPO-3?node-id=0%3A1
