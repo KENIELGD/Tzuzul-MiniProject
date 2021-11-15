@@ -9,82 +9,143 @@
     <title>TzuzulTeam3</title>
   </head>
   <body>
-    <nav class="navbar container_wrapper">
-      <div class="imagen_titulo">
-        <img src="assets/img/Logo-Team3.png" alt="" />
-        <h1>TZUZULTEAM3</h1>
-      </div>
+    <div class="wrapper__nav">
+      <nav class="navbar container_wrapper">
+        <div class="imagen_titulo">
+          <img src="assets/img/Logo-TeamTzul.png" alt="Logo" width="120" height="120" />
+          <h1 class="text__logo">TZUZULTEAM3</h1>
+        </div>
 
-      <div class="informacion">
-        <a href="#" class="info">COMPAÑÍA</a>
-        <a href="#" class="info">ACERCA DE</a>
-        <a href="#" class="info">CONTACTENOS</a>
-      </div>
-    </nav>
+        <div class="informacion">
+          <a href="#container_hero" class="info">COMPAÑÍA</a>
+          <a href="#aboutCompany" class="info">ACERCA DE</a>
+          <a href="#features" class="info">CARACTERISTICAS</a>
+        </div>
+      </nav>
+    </div>
 
-    <section class="container_wrapper">
+    <section class="container_wrapper" id="container_hero">
       <div class="container_hero">
-        <img src="./assets/img/design.png" alt="Diseño" />
-        <div class="svg_hero">
-          <svg viewBox="0 0 578 440" focusable="false" xmlns="http://www.w3.org/2000/svg">
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M239.184 439.443c-55.13-5.419-110.241-21.365-151.074-58.767C42.307 338.722-7.478 282.729.938 221.217c8.433-61.644 78.896-91.048 126.871-130.712 34.337-28.388 70.198-51.348 112.004-66.78C282.34 8.024 325.382-3.369 370.518.904c54.019 5.115 112.774 10.886 150.881 49.482 39.916 40.427 49.421 100.753 53.385 157.402 4.13 59.015 11.255 128.44-30.444 170.44-41.383 41.683-111.6 19.106-169.213 30.663-46.68 9.364-88.56 35.21-135.943 30.551z"
-              fill="currentColor"
-            ></path>
-          </svg>
+        <div class="wrapper__heroImage">
+          <img src="./assets/img/image_hero.svg" alt="Diseño" />
+        </div>
+        <div class="wrapper_hero">
+          <div class="wrapper_text">
+            <span class="title">Diseños y Soluciones de </span>
+            <br />
+            <span class="sub_title">marca digital</span>
+          </div>
+          <p class="hero_description">
+            Con más de 10 años en la industria, tenemos experiencias en la creacion de sitios web
+            totalmente receptivos , diseño de aplicaciones y experiencias de marca actrativas.
+            Descubra más sobre nuestros servicios
+          </p>
         </div>
       </div>
     </section>
 
-    <section id="three_imgs" class="three_imgs">
-        <div id="imgs_one" class="imgs_one">
-            <img src="https://images.unsplash.com/photo-1551739440-5dd934d3a94a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80" alt="Imagen de computador con logo de Google" class="img1" />
-            <div class="texto_imgsOne">
-                <h1>DISEÑO DE PROYECTO</h1>
-                <p>VER PROYECTOS</p>
-            </div>
+    <section class="aboutCompany container_wrapper" id="aboutCompany">
+      <div class="imgs_one">
+        <figure>
+          <img
+            src="assets/img/design-project.svg"
+            alt="Imagen de computador con logo de Google"
+            class="img1"
+          />
+        </figure>
+        <div class="texto_imgsOne">
+          <h1>DISEÑO DE PROYECTO</h1>
+          <p>VER PROYECTOS</p>
         </div>
-        <div id="imgs_two" class="imgs_two">
-            <img src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=896&q=80" alt="Imagen de computador y celular" />
-            <div class="texto_imgsTwo">
-                <h1>APLICACIONES DE DISEÑO</h1>
-                <p>VER PROYECTOS</p>
-            </div>
+      </div>
+      <div class="imgs_two">
+        <figure>
+          <img src="assets/img/design_app.svg" alt="Imagen de computador y celular" />
+        </figure>
+        <div class="texto_imgsTwo">
+          <h1>APLICACIONES DE DISEÑO</h1>
+          <p>VER PROYECTOS</p>
         </div>
-        <div id="imgs_three" class="imgs_three">
-            <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=901&q=80" alt="imagen de teclado y audifonos" />
-            <div class="texto_imgsThree">
-                <h1>DISEÑO GRAFICO</h1>
-                <p>VER PROYECTOS</p>
-            </div>
+      </div>
+      <div class="imgs_three">
+        <figure>
+          <img src="assets/img/desing_graphic.svg" alt="imagen de teclado y audifonos" />
+        </figure>
+
+        <div class="texto_imgsThree">
+          <h1>DISEÑO GRAFICO</h1>
+          <p>VER PROYECTOS</p>
         </div>
+      </div>
     </section>
 
+    <section class="features container_wrapper" id="features">
+      <div class="part_one">
+        <figure class="section__figure">
+          <img src="./assets/img/parts_three__img1.svg" alt="figure 1" />
+        </figure>
+        <h3>PRUEBA</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit id quibusdam
+          accusantium corporis voluptatem iste vero odio sit. Aut quia voluptates magni sunt quod
+          reiciendis libero sed ex possimus.
+        </p>
+      </div>
 
+      <div class="part_two">
+        <figure class="section__figure">
+          <img src="./assets/img/parts_three__img2.svg" alt="figure 2" />
+        </figure>
+        <h3>PRUEBA</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit id quibusdam
+          accusantium corporis voluptatem iste vero odio sit. Aut quia voluptates magni sunt quod
+          reiciendis libero sed ex possimus.
+        </p>
+      </div>
 
-
-    <section class="parts_three">
-        <div class="part_one">
-            <img src="./assets/img/parts_three__img1.svg" alt="">
-            <h3>PRUEBA</h5>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit id quibusdam accusantium corporis voluptatem iste vero odio sit. Aut quia voluptates magni sunt quod reiciendis libero sed ex possimus.</p>
-        </div>
-
-        <div class="part_one">
-            <img src="./assets/img/parts_three__img2.svg" alt="">
-            <h3>PRUEBA</h5>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit id quibusdam accusantium corporis voluptatem iste vero odio sit. Aut quia voluptates magni sunt quod reiciendis libero sed ex possimus.</p>
-        </div>
-
-        <div class="part_one">
-            <img src="./assets/img/parts_three__img3.svg" alt="">
-            <h3>PRUEBA</h5>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit id quibusdam accusantium corporis voluptatem iste vero odio sit. Aut quia voluptates magni sunt quod reiciendis libero sed ex possimus.</p>
-        </div>
+      <div class="part_three">
+        <figure class="section__figure">
+          <img src="./assets/img/parts_three__img3.svg" alt="figure 3" />
+        </figure>
+        <h3>PRUEBA</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit id quibusdam
+          accusantium corporis voluptatem iste vero odio sit. Aut quia voluptates magni sunt quod
+          reiciendis libero sed ex possimus.
+        </p>
+      </div>
     </section>
 
-    <footer id="" class=""></footer>
+    <footer>
+      <div class="footer__wrapper">
+        <div class="contact">
+          <img src="assets/img/Logo-TeamTzul.png" alt="Logo" width="120" height="120" />
+          <div class="contact__text">
+            <p>Nuestra compañia</p>
+            <p>Locaciones</p>
+            <p>Contacto</p>
+          </div>
+        </div>
+        <div class="socialNetwork">
+          <div class="socialNetwork__text">
+            <p>Centro de diseño Tzulcode</p>
+            <p>Carrera 5 # 45-90</p>
+            <p>del Mundo, para el Universo</p>
+          </div>
+          <div class="socialNetwork__description">
+            <p>Centro de diseño Tzulcode</p>
+            <p>+1 342343244234</p>
+            <p>mail@tzuzulcode.com</p>
+          </div>
+          <div class="socialNetwork__images">
+            <img src="./assets/img/Pinterest.svg" alt="Logo Pinterest" />
+            <img src="./assets/img/Facebook.svg" alt="Logo Facebook" />
+            <img src="./assets/img/Twitter.svg" alt="Logo Twitter" />
+            <img src="./assets/img/Instagram.svg" alt="Logo Instagram" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
